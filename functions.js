@@ -8,45 +8,45 @@ let myList = ["bread","dairy","legumes","sugar","flour","rice","nuts","cake","pa
 const amount=[100,500,30,400,290,689,450,200,100,340]
 
 //Write a function to add a new item to the inventory, updating both arrays.
-// let newList= "Apple"
-// let newAmount = 995
+let newList= "Apple"
+let newAmount = 995
 
-// function myGrocery(newList,newAmount){
-//     if(myList.length <= 10){
+function myGrocery(newList,newAmount){
+    if(myList.length <= 10){
        
-//         console.log("list full")
+        console.log("list full")
 
-//     }
-//     else{
-//         console.log(`${newList} and ${newAmount}`)
-//     }
-// }
+    }
+    else{
+        console.log(`${newList} and ${newAmount}`)
+    }
+}
 
 
 
 //Write a function to update the stock quantity of an existing item.
-// function updateSList(name, quantity) {
-//     let index = myList.indexOf(name);
-//     if (index !== -1) { // make sure item exists in inventory
-//       stock[index] = quantity;
-//       console.log(` ${name} to ${quantity}`);
-//     }
-// }
+function updateSList(name, quantity) {
+    let index = myList.indexOf(name);
+    if (index !== -1) { // make sure item exists in inventory
+      stock[index] = quantity;
+      console.log(` ${name} to ${quantity}`);
+    }
+}
 
-//Write a function to calculate the total number of items in the inventory.  let sum = 0;
-// function items(){
-//     let sum = 0;
-//     for (let item in myList) {
-//       sum += myList[item].stock;
-//     }
-//     console.log(`all groceries : ${sum}.`);
-//   }
+//Write a function to calculate the total number of items in the inventory.
+function items(){
+    let sum = 0;
+    for (let item in myList) {
+      sum += myList[item].stock;
+    }
+    console.log(`all groceries : ${sum}.`);
+  }
 
 
 //Write a function to find the item with the lowest stock quantity.
-// function loweQuantity(){
-//     let list= 
-//     console.log(math.min(...loweQuantity))
+function loweQuantity(){
+    let list= 
+    console.log(math.min(...loweQuantity))
 
-// }
-// loweQuantity()
+}
+loweQuantity()
